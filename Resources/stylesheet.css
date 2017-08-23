@@ -10,6 +10,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
@@ -40,4 +41,91 @@ nav span {
 
 a {
   color: black;
+}
+
+
+.main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  flex-direction: row;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagecontent {
+  display: flex;
+  background-image: url("./Images/img-story-main.png");
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.imagecontent span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.newsbites {
+  ;
+}
+
+.content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  height: 300px;
+}
+
+.content.image1 {
+  background-image: url("./Images/img-story-2.png");
+}
+
+.content.image2 {
+  background-image: url("./Images/img-story-3.png");
+}
+
+.content.image3 {
+  background-image: url("./Images/img-story-1.png");
+}
+
+.stor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.stories {
+  display: flex;
+	justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
